@@ -1,0 +1,70 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "clound compare"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+	"datasource",
+        "config",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+ 	        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+		"../node_modules/font-awesome/css/font-awesome.min.css",		
+                "assets/css/Cloud_style.css",
+		"assets/css/comment_popup_style.css",
+		"assets/css/accordion_style.css"
+      ],
+      "scripts": [
+		"../node_modules/jquery/dist/jquery.min.js",
+		"../node_modules/bootstrap/dist/js/bootstrap.min.js",
+		"../node_modules/xlsx/dist/xlsx.core.min.js",
+                "../node_modules/xlsx/dist/xlsx.min.js",
+    "../node_modules/alasql/dist/alasql.min.js"
+
+	  ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json"
+    },
+    {
+      "project": "src/tsconfig.spec.json"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}

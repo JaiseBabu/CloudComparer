@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+/*.compare_table{
+	margin-top:25px;
+}*/
+.main_cloud_header{
+	width:100%;	
+	border-bottom:1px solid #e8e8e8;
+	text-align:center;
+	display:flex;
+	font-size:13px;
+	word-wrap: break-word;
+	padding-bottom:20px;
+}
+.main_cloud_header .logo_div{
+	position:relative;
+	width:12%;
+	float:left;/*for IE 10*/
+}
+.main_cloud_header .logo_div:first-child{
+	width:26%;
+}
+.main_cloud_header .comment_div{
+width: 14%;
+position: relative;
+color: #99115D;
+float:left;/*for IE 10*/
+}
+.main_cloud_header .comment_div .fa{
+	font-size: 50px;
+	margin-top: 3%;
+}
+.main_cloud_header .comment_div img{
+	margin: 0 auto;
+position: relative;
+top: 38%;
+}
+.label_div{
+	position:relative;
+	margin:0 auto;
+	top:39%;
+}
+.logo_div img{
+	margin:0 auto;
+	position:relative;
+	max-width:45%;
+}
+/*Accordion*/
+
+.compare_table .panel-default{
+	border:none;
+}
+.compare_table .panel-default>.panel-heading {
+	background:#C8D6E2;
+	padding:0;
+	border-radius:0;
+}
+.compare_table .panel-group .panel+.panel {
+	margin-top: 0px;
+}
+.compare_table .panel-body{
+	padding:0;
+	border-top-color: #fff;
+}
+
+
+/*Category List*/
+.outer_border{
+	border-left:1px solid #C8D6E2;
+}
+.category_div{
+	width:100%;
+	min-height:30px;
+	display:flex;
+	font-size:12px;		
+}
+.category_div>a.category_col{
+	color:#404040;
+	text-align:left;
+	background: rgb(0, 0, 0, 0);
+}
+.category_div>a:focus, .category_div>a:hover {
+	color: #202020;
+	text-decoration: none;
+}
+#accordion .panel-default:nth-of-type(even) .category_div>a{
+	   border-left:0px solid #99115D;
+}
+
+#accordion .panel-default:nth-of-type(odd) .category_div>a{
+	   border-left:0px solid #e20074;
+}
+.category_div .arrow_right{
+	color:#e20074;
+	font-size:12px;
+	margin:8px 8px 8px 3px;
+	float:left;
+	padding-right: 10px;
+}
+
+.category_col{	
+	width:12%;
+	min-height:30px;
+	line-height:30px;
+	padding-left: 5px;
+	border-right:1px solid #dddbdb;
+	text-align:center;
+	position:relative;
+	float:left;/*for IE 10*/
+	background: rgb(0, 0, 0, 0);
+
+}	
+.category_col:first-child{
+	width:26%;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.category_div .rating_img{
+	margin:0 auto;
+	width:70px;
+	position:relative;
+	top:25%;
+}
+.category_div .comment_div{
+	border-right:none;
+	width:14%;
+	position:relative;
+	float:left;/*for IE 10*/
+	background: rgb(0, 0, 0, 0);
+
+}
+
+.comment_div .link_icon{
+	margin:0 auto;
+	position: relative;
+	top: 20%;
+}	
+.clear{
+	clear:both;
+}
+/*Services*/
+.services_head{
+	width:100%;
+	background:#000;
+}
+.service_header_name{
+	width:26%;
+	background:#99115D;
+	color:#fff;
+	font-size:14px;
+	padding:5px;
+}
+.services_div{
+	width:100%;
+	min-height:145px;
+	background:#fff;
+	display:flex;
+	font-size:14px;
+	border-bottom:1px solid #E8E8E8;
+}
+
+.services_col{
+	width:12%;
+	min-height:145px;
+	padding-left: 5px;
+	border-right:1px solid #E8E8E8;
+	text-align:center;
+	position:relative;
+}
+.services_div .services_col:first-child{
+	width:26%;
+	text-align:left;
+	border-left:1px solid #E8E8E8;
+}
+.service_name{
+	position:relative;
+	top:40%;
+}
+.service_name>a{
+	color:#337ab7;
+	text-decoration:underline;
+}
+
+.vertical_middle_adjust{
+	position: relative;
+	top: 24%;
+}
+.services_comment_div{
+	position:relative;
+	width:7%;
+	border-right:1px solid #E8E8E8;
+	text-align:center;
+}
+.services_comment_div .link_icon {
+	margin: 0 auto;
+	position: relative;
+	top: 40%;
+}
+.services_div .rating_img{
+	margin:0 auto;
+	width:70px;
+}
+
+.services_logo_wrapper img{
+	margin:0px auto;
+	padding:5px 0;
+}
+@media(max-width:760px) {
+ .compare_table{
+	margin-top:15px;
+}
+.main_cloud_header{
+	font-size:7px;
+	word-wrap: break-word;
+}
+.main_cloud_header .comment_div .fa{
+	font-size: 15px;
+}
+.category_div{	
+	font-size:7px;	
+}
+.category_div .rating_img {
+	width:50%;		
+}
+.services_div .rating_img {
+	width:50%;	
+}
+.comment_div .arrow_right{
+	font-size: 18px;
+	margin-top: 0%;
+}
+.main_cloud_header .comment_div img {   
+	top: 24%;
+	   width: 50%;
+}
+/*Reducing logo sizes in mobile devices*/
+.services_logo_wrapper img{
+	width:40%;
+}
+} 
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+.compare_table{
+	margin-top:15px;
+}
+.category_div{	
+font-size:11px;	
+}
+.category_div .rating_img{
+	margin:0 auto;
+	top:30%;
+}
+.comment_div .arrow_right{
+font-size: 30px;
+margin-top: 14%;
+}
+.main_cloud_header .comment_div .fa{
+	font-size: 33px;
+}
+} 
+

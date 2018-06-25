@@ -1,0 +1,1198 @@
+{
+   "rating": {
+	"1": "assets/images/icons/stars5.png",
+	"2.5":"assets/images/icons/stars45.png",
+	"2":"assets/images/icons/stars4.png",
+	"3.5":"assets/images/icons/stars35.png",
+	"3":"assets/images/icons/stars3.png",
+	"4.5":"assets/images/icons/stars25.png",
+	"4":"assets/images/icons/stars2.png",
+	"5.5":"assets/images/icons/stars15.png",
+	"5":"assets/images/icons/stars1.png"
+	},
+   "instance": {
+             "AWS-Default": {
+                     "imgSrc": "assets/images/aws-logo_default.png",
+                     "toolTip": "AWS Service"
+	        },
+	        "AWS-EC2": {
+                    "imgSrc": "assets/images/Compute/Compute_AmazonEC2.png",
+                    "toolTip": "AmazonEC2"
+                },
+           "AWS-EC2Container": {
+                     "imgSrc": "assets/images/Compute/Amazon EC2 Container Registry (Preview).png",
+                     "toolTip": "Amazon EC2 Container Registry (Preview)"
+                  },
+           "AWS-ECSContainer": {
+                     "imgSrc": "assets/images/Compute/AmazonECS Container Service.png",
+                     "toolTip": "Amazon EC2 Container Registry (Preview)"
+                  },	  
+           "AWS-LightSail": {
+                     "imgSrc": "assets/images/Compute/Amazon EC2 Container Registry (Preview).png",
+                     "toolTip": "Amazon Lightsail"
+                  },
+           "AWS-Batch": {
+                     "imgSrc": "assets/images/Compute/Amazon EC2 Container Registry (Preview).png",
+                     "toolTip": "AWS Batch"
+                  },	
+           "AWS-ElasticBeanStalk": {
+                     "imgSrc": "assets/images/Compute/Compute_AWSElasticBeanstalk_application.png",
+                     "toolTip": "AWS Elastic Bean Stalk"
+                 },
+
+            "AWS-Aurora": {
+                    "imgSrc": "assets/images/Compute/Amazon_Aurora.png",
+                    "toolTip": "AWS Aurora"
+                },
+            "AWS-RDS": {
+                    "imgSrc": "assets/images/Compute/AWS_RDS.png",
+                    "toolTip": "AWS RDS"
+                },
+            "AWS-DynamoDB": {
+                    "imgSrc": "assets/images/Compute/AWS-DynamoDb.png",
+                    "toolTip": "AWS DynamoDB"
+                },
+            "AWS-EC2 Container Registry": {
+                    "imgSrc": "assets/images/Compute/amazon_ecr.png",
+                    "toolTip": "AWS EC2 Container Registry"
+                },
+            "AWS-EC2 Container Service": {
+                    "imgSrc": "assets/images/Compute/amazonecs_container_service.png",
+                    "toolTip": "AWS EC2 Container Service"
+                },
+           "AWS-Fargate":{
+                    "imgSrc": "assets/images/Compute/awsfargate.png",
+                    "toolTip": "AWS-Fargate"
+           },
+           "AWS-Lambda":{
+                    "imgSrc": "assets/images/Compute/aws-lambda.png",
+                    "toolTip": "AWS-Lambda"
+   },
+            "AWS-Simple Storage Service (S3)":{
+                    "imgSrc": "assets/images/Compute/s3.png",
+                    "toolTip": "AWS-Simple Storage Service (S3)"
+                },
+            "AWS-Elastic Block Storage":{
+                    "imgSrc": "assets/images/Compute/aws ebs.png",
+                    "toolTip": "AWS-Elastic Block Storage"
+                },
+            "AWS-EFS":{
+                    "imgSrc": "assets/images/Compute/aws efs.png",
+                    "toolTip": "AWS-EFS"
+                },
+                "AWS-Glacier":{
+                    "imgSrc": "assets/images/Compute/aws glacier.png",
+                    "toolTip": "AWS-Glacier"
+                },
+                "AWS-ElastiCache":{
+                    "imgSrc": "assets/images/Compute/aws-elasticCache.png",
+                    "toolTip": "AWS-ElastiCache"
+                },
+                "AWS-Redshift":{
+                    "imgSrc": "assets/images/Compute/redshift.png",
+                    "toolTip": "AWS-Redshift"
+                },
+                "AWS-SMS":{
+                    "imgSrc": "assets/images/Compute/aws-sms.png",
+                    "toolTip": "AWS-SMS"
+                },
+                "AWS-Snowball":{
+                    "imgSrc": "assets/images/Compute/snowball.png",
+                    "toolTip": "AWS-Snowball"
+                },
+                "AWS-VPC":{
+                    "imgSrc": "assets/images/Compute/aws_vpc.png",
+                    "toolTip": "AWS-VPC"
+                },
+                "AWS-VPN":{
+                    "imgSrc": "assets/images/Compute/vpn_gateway.png",
+                    "toolTip": "AWS-VPN"
+                },
+                "AWS-CloudFront":{
+                    "imgSrc": "assets/images/Compute/aws-cloudfront.png",
+                    "toolTip": "AWS-CloudFront"
+                },
+                "AWS-Route 53":{
+                    "imgSrc": "assets/images/Compute/route-53.png",
+                    "toolTip": "AWS-Route 53"
+                },
+                "AWS-Direct Connect":{
+                    "imgSrc": "assets/images/Compute/aws-directConnect.png",
+                    "toolTip": "AWS-Direct Connect"
+                },
+                "AWS-Elastic Load Balancing":{
+                    "imgSrc": "assets/images/Compute/aws-elasticlb.png",
+                    "toolTip": "AWS-Elastic Load Balancing"
+                },
+                "AWS-CodeCommit":{
+                    "imgSrc": "assets/images/Compute/aws-codecommit.png",
+                    "toolTip": "AWS-CodeCommit"
+                },
+                "AWS-CodeBuild":{
+                    "imgSrc": "assets/images/Compute/aws-codeBuild.png",
+                    "toolTip": "AWS-CodeBuild"
+                },
+                "AWS-CodeDeploy":{
+                    "imgSrc": "assets/images/Compute/AWS-CodeDeploy.png",
+                    "toolTip": "AWS-CodeDeploy"
+                },
+                "AWS-CodePipeline":{
+                    "imgSrc": "assets/images/Compute/codePipeline.png",
+                    "toolTip": "AWS-CodePipeline"
+                },
+                "AWS-X-Ray":{
+                    "imgSrc": "assets/images/Compute/awsXray.png",
+                    "toolTip": "AWS-X-Ray"
+                },
+                "AWS-EC2 Systems Manager":{
+                    "imgSrc": "assets/images/Compute/aws-systems-manager.png",
+                    "toolTip": "AWS-EC2 Systems Manager"
+                },
+                "AWS-CloudFormation":{
+                    "imgSrc": "assets/images/Compute/cloudFormation.png",
+                    "toolTip": "AWS-CloudFormation"
+                },
+                "AWS-CloudWatch":{
+                    "imgSrc": "assets/images/Compute/cloudwatch.png",
+                    "toolTip": "AWS-CloudWatch"
+                },
+                "AWS-CloudTrail":{
+                    "imgSrc": "assets/images/Compute/cloudtrail.png",
+                    "toolTip": "AWS-CloudTrail"
+                },
+                "AWS-Service Catalog":{
+                    "imgSrc": "assets/images/Compute/servicecatelog.png",
+                    "toolTip": "AWS-Service Catalog"
+                },
+                "AWS-Trusted Advisor":{
+                    "imgSrc": "assets/images/Compute/trustedAdvisor.png",
+                    "toolTip": "AWS-Trusted Advisor"
+                },
+                "AWS-OpsWorks":{
+                    "imgSrc": "assets/images/Compute/opsworks.png",
+                    "toolTip": "AWS-OpsWorks"
+                },
+                "Google-Cloud IAM":{
+                    "imgSrc": "assets/images/Compute/iam.png",
+                    "toolTip": "Google-Cloud IAM"
+                },
+                "AWS-Inspector":{
+                    "imgSrc": "assets/images/Compute/inspector.png",
+                    "toolTip": "AWS-Inspector"
+                },
+                "AWS-Certificate Manager":{
+                    "imgSrc": "assets/images/Compute/certificate.png",
+                    "toolTip": "AWS-Certificate Manager"
+                },
+                "AWS-CloudHSM":{
+                    "imgSrc": "assets/images/Compute/cloudhsm.png",
+                    "toolTip": "AWS-CloudHSM"
+                },
+                "AWS-Directory Service":{
+                    "imgSrc": "assets/images/Compute/directoryservice.png",
+                    "toolTip": "AWS-Directory Service"
+                },
+                "AWS-Key Management Service":{
+                    "imgSrc": "assets/images/Compute/AWSKMS.png",
+                    "toolTip": "AWS-Key Management Service"
+                },
+                "AWS-Secrets Manager":{
+                    "imgSrc": "assets/images/Compute/secManager.png",
+                    "toolTip": "AWS-Secrets Manager"
+                },
+                "":{
+                    "imgSrc": "assets/images/Compute/aws-organizations.png",
+                    "toolTip": ""
+                },
+                "AWS-Shield":{
+                    "imgSrc": "assets/images/Compute/sheild.png",
+                    "toolTip": "AWS-Shield"
+                },
+                "AWS-WAF":{
+                    "imgSrc": "assets/images/Compute/waf.png",
+                    "toolTip": "AWS-WAF"
+                },
+                "AWS-Athena":{
+                    "imgSrc": "assets/images/Compute/athena.png",
+                    "toolTip": "AWS-Athena"
+                },
+                "AWS-EMR":{
+                    "imgSrc": "assets/images/Compute/emr.png",
+                    "toolTip": "AWS-EMR"
+                },
+                "AWS-CloudSearch":{
+                    "imgSrc": "assets/images/Compute/cloudsearch.png",
+                    "toolTip": "AWS-CloudSearch"
+                },
+                "AWS-Elastic Search Service":{
+                    "imgSrc": "assets/images/Compute/ElasticsearchService.png",
+                    "toolTip": "AWS-Elastic Search Service"
+                },
+                "AWS-Kinesis":{
+                    "imgSrc": "assets/images/Compute/kinesis.png",
+                    "toolTip": "AWS-Kinesis"
+                },
+                "AWS-QuickSight":{
+                    "imgSrc": "assets/images/Compute/quicksight.png",
+                    "toolTip": "AWS-QuickSight"
+                },
+                "AWS-Appsync":{
+                    "imgSrc": "assets/images/Compute/aws appsync.png",
+                    "toolTip": "AWS-Appsync"
+                },
+                "AWS-Data Pipeline":{
+                    "imgSrc": "assets/images/Compute/dataPipeline.png",
+                    "toolTip": "AWS-Data Pipeline"
+                },
+                "AWS-Glue":{
+                    "imgSrc": "assets/images/Compute/awsGlue.png",
+                    "toolTip": "AWS-Glue"
+                },
+                "AWS-Lex":{
+                    "imgSrc": "assets/images/Compute/lex.png",
+                    "toolTip": "AWS-Lex"
+                },
+                "AWS-Comprehend":{
+                    "imgSrc": "assets/images/Compute/amazon-comprehend.png",
+                    "toolTip": "AWS-Comprehend"
+                },
+                "AWS-Sagemaker":{
+                    "imgSrc": "assets/images/Compute/aws sagemaker logo.png",
+                    "toolTip": "AWS-Sagemaker"
+                },
+                "AWS-Polly":{
+                    "imgSrc": "assets/images/Compute/polly.png",
+                    "toolTip": "AWS-Polly"
+                },
+                "AWS-Rekognition":{
+                    "imgSrc": "assets/images/Compute/rekognition.png",
+                    "toolTip": "AWS-Rekognition"
+                },
+                "AWS-Mobile Hub":{
+                    "imgSrc": "assets/images/Compute/awsmobilehub.png",
+                    "toolTip": "AWS-Mobile Hub"
+                },
+                "AWS-API Gateway":{
+                    "imgSrc": "assets/images/Compute/apigateway.png",
+                    "toolTip": "AWS-API Gateway"
+                },
+                "AWS-Cognito":{
+                    "imgSrc": "assets/images/Compute/cognito.png",
+                    "toolTip": "AWS-Cognito"
+                },
+                "AWS-Device Farm":{
+                    "imgSrc": "assets/images/Compute/devicefarm.png",
+                    "toolTip": "AWS-Device Farm"
+                },
+                "AWS-SDK":{
+                    "imgSrc": "assets/images/Compute/mobileSDK.png",
+                    "toolTip": "AWS-SDK"
+                },
+                "AWS-Step Functions":{
+                    "imgSrc": "assets/images/Compute/aws-step-functions.png",
+                    "toolTip": "AWS-Step Functions"
+                },
+                "":{
+                    "imgSrc": "assets/images/Compute/",
+                    "toolTip": ""
+                },
+                "":{
+                    "imgSrc": "assets/images/Compute/",
+                    "toolTip": ""
+                },
+                "":{
+                    "imgSrc": "assets/images/Compute/",
+                    "toolTip": ""
+                },
+                "":{
+                    "imgSrc": "assets/images/Compute/",
+                    "toolTip": ""
+                },
+                "":{
+                    "imgSrc": "assets/images/Compute/",
+                    "toolTip": ""
+                },
+                "":{
+                    "imgSrc": "assets/images/Compute/",
+                    "toolTip": ""
+                },
+                "":{
+                    "imgSrc": "assets/images/Compute/",
+                    "toolTip": ""
+                },
+                "":{
+                    "imgSrc": "assets/images/Compute/",
+                    "toolTip": ""
+                },
+                "":{
+                    "imgSrc": "assets/images/Compute/",
+                    "toolTip": ""
+                },
+                
+
+
+
+
+
+
+
+
+                
+                
+                
+                
+                
+
+
+           "Azure-Default": {
+                     "imgSrc": "assets/images/Azure-logo_default.png",
+                     "toolTip": "Azure Service"
+            },
+            "Azure-MySQL": {
+                "imgSrc": "assets/images/Compute/Azure-MySQL.png",
+                "toolTip": "Azure MySQL"
+            },
+            "Azure-SQL Database": {
+                "imgSrc": "assets/images/Compute/azure-sqldb.png",
+                "toolTip": "Azure SQL Database"
+            },
+            "Azure-TableStorage": {
+                "imgSrc": "assets/images/Compute/Azure-TableStorage.png",
+                "toolTip": "Azure TableStorage"
+            },
+           "Azure-VM": {
+                     "imgSrc": "assets/images/Compute/Azure Virtual Machine.png",
+                     "toolTip": "Azure Virtual Machine"
+                  },
+           "Azure-VMScaleSet": {
+                     "imgSrc": "assets/images/Compute/Azure VM Scale Set.png",
+                     "toolTip": "Azure VM Scale Set"
+                  },
+           "Azure-ContainerRegistry": {
+                     "imgSrc": "assets/images/Compute/Azure Conatiner Registry.png",
+                     "toolTip": "Azure Conatiner Registry"
+                  },
+           "Azure-ContainerService": {
+                     "imgSrc": "assets/images/Compute/Azure Container Service.png",
+                     "toolTip": "Azure Container Service"
+                  },
+           "Azure-ServiceFabric": {
+                     "imgSrc": "assets/images/Compute/Azure Service Fabric.png",
+                     "toolTip": "Azure Service Fabric"
+                  },
+           "Azure-AppServiceWebapp": {
+                     "imgSrc": "assets/images/Compute/Azure App Service - Web App (was Websites).png",
+                     "toolTip": "Azure App Service - Web App (was Websites)"
+                  },
+           "Azure-Batch": {
+                     "imgSrc": "assets/images/Compute/Azure Batch.png",
+                     "toolTip": "Azure Batch"
+                  },                 
+           "Azure-CloudServices": {
+                     "imgSrc": "assets/images/Compute/Azure Cloud Services - Web roles.png",
+                     "toolTip": "Azure Cloud Services - Web roles"
+                  },
+            "Azure-Event Grid": {
+                    "imgSrc": "assets/images/Compute/Azure-Event Grid.png",
+                    "toolTip": "Azure-Event Grid"
+                 },
+            "Azure-Functions":{
+                "imgSrc": "assets/images/Compute/Azure-Functions.png",
+                "toolTip": "Azure-Functions"
+            },
+            "Azure-Blob Storage":{
+                "imgSrc": "assets/images/Compute/azure blob storage.png",
+                "toolTip": "Azure-Blob Storage"
+            },
+            "Azure-Managed Disks":{
+                "imgSrc": "assets/images/Compute/azure_managed-disks.png",
+                "toolTip": "Azure-Managed Disks"
+            },
+            "Azure-Postgre SQL":{
+                "imgSrc": "assets/images/Compute/azure-postgreSql.png",
+                "toolTip": "Azure-Postgre SQL"
+            },
+            "Azure-Table Storage":{
+                "imgSrc": "assets/images/Compute/Azure-TableStorage.png",
+                "toolTip": "Azure-Table Storage"
+            },
+            "Azure-Cosmos-DB":{
+                "imgSrc": "assets/images/Compute/azure_cosmos_db.png",
+                "toolTip": "Azure-Cosmos-DB"
+            },
+            "Azure-RedisCache":{
+                "imgSrc": "assets/images/Compute/Azure_Redis_Cache.png",
+                "toolTip": "Azure-RedisCache"
+            },
+            "Azure-SQL Data Warehouse":{
+                "imgSrc": "assets/images/Compute/azure_datawarehouse.png",
+                "toolTip": "Azure-SQL Data Warehouse"
+            },
+            "Azure-Site Recovery":{
+                "imgSrc": "assets/images/Compute/Azure-site-recovery.png",
+                "toolTip": "Azure-Site Recovery"
+            },
+            "Azure-Import/Export":{
+                "imgSrc": "assets/images/Compute/azure-importExport.png",
+                "toolTip": "Azure-Import/Export"
+            },
+            "Azure-Virtual Network":{
+                "imgSrc": "assets/images/Compute/Azure Virtual Network.png",
+                "toolTip": "Azure-Virtual Network"
+            },
+            "Azure-VPN Gateway":{
+                "imgSrc": "assets/images/Compute/Azure VPN Gateway.png",
+                "toolTip": "Azure-VPN Gateway"
+            },
+            "Azure-CDN":{
+                "imgSrc": "assets/images/Compute/Azure-CDN.png",
+                "toolTip": "Azure-CDN"
+            },
+            "Azure-DNS":{
+                "imgSrc": "assets/images/Compute/Azure DNS.png",
+                "toolTip": "Azure-DNS"
+            },
+            "Azure-Traffic Manager":{
+                "imgSrc": "assets/images/Compute/Azure Traffic Manager.png",
+                "toolTip": "Azure-Traffic Manager"
+            },
+            "Azure-Express Route":{
+                "imgSrc": "assets/images/Compute/Azure ExpressRoute.png",
+                "toolTip": "Azure-Express Route"
+            },
+            "Azure-Application Gateway":{
+                "imgSrc": "assets/images/Compute/Azure Application Gateway.png",
+                "toolTip": "Azure-Application Gateway"
+            },
+            "Azure-Load Balancer":{
+                "imgSrc": "assets/images/Compute/Azure Load Balancer.png",
+                "toolTip": "Azure-Load Balancer"
+            },
+            "Azure-Backup":{
+                "imgSrc": "assets/images/Compute/Azure Backup - Recovery.png",
+                "toolTip": "Azure-Backup"
+            },
+            "Azure-Visual Studio Team Services":{
+                "imgSrc": "assets/images/Compute/Visual Studio Team Services.png",
+                "toolTip": "Azure-Visual Studio Team Services"
+            },
+            "Azure-Automation":{
+                "imgSrc": "assets/images/Compute/azureAutomation.png",
+                "toolTip": "Azure-Automation"
+            },
+            "Azure-Resource Manager":{
+                "imgSrc": "assets/images/Compute/Resource Group.png",
+                "toolTip": "Azure-Resource Manager"
+            },
+            "Azure-Monitor":{
+                "imgSrc": "assets/images/Compute/Azure monitor.png",
+                "toolTip": "Azure-Monitor"
+            },
+            "Azure-Log Analytics":{
+                "imgSrc": "assets/images/Compute/Log Analytics.png",
+                "toolTip": "Azure-Log Analytics"
+            },
+            "Azure-Application Insights":{
+                "imgSrc": "assets/images/Compute/Azure Application Insights.png",
+                "toolTip": "Azure-Application Insights"
+            },
+            "Azure-Portal":{
+                "imgSrc": "assets/images/Compute/Azure Management Portal.png",
+                "toolTip": "Azure-Portal"
+            },
+            "Azure-CloudShell":{
+                "imgSrc": "assets/images/Compute/shell-access.png",
+                "toolTip": "Azure-CloudShell"
+            },
+          
+            
+            "Azure-Managed Service Identity":{
+                "imgSrc": "assets/images/Compute/azure-MServiceentity.png",
+                "toolTip": "Azure-Managed Service Identity"
+            },
+            "Azure-Security Center":{
+                "imgSrc": "assets/images/Compute/Azure Security Center.png",
+                "toolTip": "Azure-Security Center"
+            },
+            "Azure-Active Directory":{
+                "imgSrc": "assets/images/Compute/Azure Active Directory.png",
+                "toolTip": "Azure-Active Directory"
+            },
+            "Azure-App Service Certificate":{
+                "imgSrc": "assets/images/Compute/Azure App Service.png",
+                "toolTip": "Azure-App Service Certificate"
+            },
+            "Azure-Key Vault":{
+                "imgSrc": "assets/images/Compute/Azure Key Vault.png",
+                "toolTip": "Azure-Key Vault"
+            },
+            "Azure-KeyVault":{
+                "imgSrc": "assets/images/Compute/Azure Key Vault.png",
+                "toolTip": "Azure-KeyVault"
+            },
+            "Azure-Active Directory B2C":{
+                "imgSrc": "assets/images/Compute/active-dir-bc2.png",
+                "toolTip": "Azure-Active Directory B2C"
+            },
+            "Azure-Active Directory Domain Services":{
+                "imgSrc": "assets/images/Compute/Azure-AD-Domain-Services.png",
+                "toolTip": "Azure-Active Directory Domain Services"
+            },
+            "Azure-Active Directory Multi Factor Authentication":{
+                "imgSrc": "assets/images/Compute/azure-ADmfa.png",
+                "toolTip": "Azure-Active Directory Multi Factor Authentication"
+            },
+            "Azure-DDoS":{
+                "imgSrc": "assets/images/Compute/ddos.png",
+                "toolTip": "Azure-DDoS"
+            },
+            "Azure-Data Lake Analytics":{
+                "imgSrc": "assets/images/Compute/Azure Data Lake Analytics.png",
+                "toolTip": "Azure-Data Lake Analytics"
+            },
+            "Azure- HDInsight":{
+                "imgSrc": "assets/images/Compute/Azure HDInsight.png",
+                "toolTip": "Azure- HDInsight"
+            },
+            "Azure-Search":{
+                "imgSrc": "assets/images/Compute/Azure Search.png",
+                "toolTip": "Azure-Search"
+            },
+            "Azure-Marketplace Elasticsearch":{
+                "imgSrc": "assets/images/Compute/Azure Store_Marketplace.png",
+                "toolTip": "Azure-Marketplace Elasticsearch"
+            },
+            "Azure-Stream Analytics":{
+                "imgSrc": "assets/images/Compute/Azure Stream Analytics.png",
+                "toolTip": "Azure-Stream Analytics"
+            },
+            "Azure-Event Hub":{
+                "imgSrc": "assets/images/Compute/Azure Event Hubs.png",
+                "toolTip": "Azure-Event Hub"
+            },
+            "Azure-Power BI Embedded":{
+                "imgSrc": "assets/images/Compute/Power BI Embedded.png",
+                "toolTip": "Azure-Power BI Embedded"
+            },
+            "Azure-Data Factory":{
+                "imgSrc": "assets/images/Compute/Azure Data Factory.png",
+                "toolTip": "Azure-Data Factory"
+            },
+            "Azure-Data Catalog":{
+                "imgSrc": "assets/images/Compute/Azure Data Catalog.png",
+                "toolTip": "Azure-Data Catalog"
+            },
+            "Azure-Bing Speech API":{
+                "imgSrc": "assets/images/Compute/bing-Speech.png",
+                "toolTip": "Azure-Bing Speech API"
+            },
+            "Azure-Text Analytics API":{
+                "imgSrc": "assets/images/Compute/textAnalyticsApi.png",
+                "toolTip": "Azure-Text Analytics API"
+            },
+            "Azure-LUIS API":{
+                "imgSrc": "assets/images/Compute/azure luis api.png",
+                "toolTip": "Azure-LUIS API"
+            },
+            "Azure-Computer Vision API":{
+                "imgSrc": "assets/images/Compute/computervisionapi.png",
+                "toolTip": "Azure-Computer Vision API"
+            },
+            "Azure-Face API":{
+                "imgSrc": "assets/images/Compute/azure-face-api.png",
+                "toolTip": "Azure-Face API"
+            },
+            "Azure-Mobile Apps":{
+                "imgSrc": "assets/images/Compute/Azure-Mobile-app.png",
+                "toolTip": "Azure-Mobile Apps"
+            },
+            "Azure-API Management":{
+                "imgSrc": "assets/images/Compute/Azure API Management.png",
+                "toolTip": "Azure-API Management"
+            },
+            "Azure-Mobile SDK,Offline/Sync":{
+                "imgSrc": "assets/images/Compute/Azure SDK.png",
+                "toolTip": "Azure-Mobile SDK,Offline/Sync"
+            },
+            "Azure-Xamarin Test Cloud":{
+                "imgSrc": "assets/images/Compute/xamarin-test-cloud.png",
+                "toolTip": "Azure-Xamarin Test Cloud"
+            },
+            "Azure-Microsoft Flow":{
+                "imgSrc": "assets/images/Compute/Microsoft Flow.png",
+                "toolTip": "Azure-Microsoft Flow"
+            },
+            "Azure-Logic Apps":{
+                "imgSrc": "assets/images/Compute/logicapp.png",
+                "toolTip": "Azure-Logic Apps"
+            },
+            "Azure-App Service WebJobs":{
+                "imgSrc": "assets/images/Compute/Azure WebApp - WebJobs.png",
+                "toolTip": "Azure-App Service WebJobs"
+            },
+            "Azure-Hockey App":{
+                "imgSrc": "assets/images/Compute/Azure HockeyApp.png",
+                "toolTip": "Azure-Hockey App"
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+           
+
+
+
+
+
+           "Google-Default": {
+                     "imgSrc": "assets/images/Google-CloudPlatform-logo_default.png",
+                     "toolTip": "Google Service"
+            },
+           "Google-ComputeEngine": {
+                     "imgSrc": "assets/images/Compute/Compute-Engine.png",
+                     "toolTip": "Compute-Engine.png"
+                  },
+           "Google-ContainerRegistry": {
+                     "imgSrc": "assets/images/Compute/Container-Registry.png",
+                     "toolTip": "Container-Registry"
+                  },
+           "Google-ContainerEngine": {
+                     "imgSrc": "assets/images/Compute/Container-Engine.png",
+                     "toolTip": "Container-Engine"
+                  },
+            "Google-ContainerBuilder":{
+                "imgSrc": "assets/images/Compute/Google-ContainerBuilder.png",
+                "toolTip": "Google-ContainerBuilder"       
+            },
+            "Google-Kubernetes Engine":{
+                "imgSrc": "assets/images/Compute/Google Kubernetes Engine.png",
+                "toolTip": "Google-Kubernetes Engine"          
+            },
+            "Google-Preemptible VMs":{
+                "imgSrc": "assets/images/Compute/Google Preemptible VMs.png",
+                "toolTip": "Google-Preemptible VMs"      
+            },
+            "Google-App Engine":{
+                "imgSrc": "assets/images/Compute/google_appengine.png",
+                "toolTip": "Google-App Engine"        
+            },
+            "Google-Cloud Storage":{
+                "imgSrc": "assets/images/Compute/Google_Cloud_storage.png",
+                "toolTip": "Google-Cloud Storage"        
+            },
+            "Google-Persistent Disk":{
+                "imgSrc": "assets/images/Compute/Persistent-disk.png",
+                "toolTip": "Google-Persistent Disk"        
+            },
+            "Google-Cloud SQL":{
+                "imgSrc": "assets/images/Compute/google_cloud_sql.png",
+                "toolTip": "Google-Cloud SQL"        
+            },
+            "Google-Cloud Spanner":{
+                "imgSrc": "assets/images/Compute/googlecloud-spanner.png",
+                "toolTip": "Google-Cloud Spanner"        
+            },
+            "Google-Datastore":{
+                "imgSrc": "assets/images/Compute/google_cloud_datastore.png",
+                "toolTip": "Google-Datastore"        
+            },
+            "Google-BigTable":{
+                "imgSrc": "assets/images/Compute/google_cloud_bigtable.png",
+                "toolTip": "Google-BigTable"        
+            },
+            "Google-Cloud Memorystore":{
+                "imgSrc": "assets/images/Compute/google_cloud_memory_store.png",
+                "toolTip": "Google-Cloud Memorystore"        
+            },
+            "Google-Cloud Endure":{
+                "imgSrc": "assets/images/Compute/CloudEndure.png",
+                "toolTip": "Google-Cloud Endure"        
+            },
+            "Google-VPC networks":{
+                "imgSrc": "assets/images/Compute/Cloud-VPC.png",
+                "toolTip": "Google-VPC networks"        
+            },
+            "Google-Cloud CDN":{
+                "imgSrc": "assets/images/Compute/Cloud-CDN.png",
+                "toolTip": "Google-Cloud CDN"        
+            },
+            "Google-DNS":{
+                "imgSrc": "assets/images/Compute/Cloud-DNS.png",
+                "toolTip": "Google-DNS"        
+            },
+            "Google-Cloud InterConnect":{
+                "imgSrc": "assets/images/Compute/Cloud-Interconnect.png",
+                "toolTip": "Google-Cloud InterConnect"        
+            },
+            "Google-CLB":{
+                "imgSrc": "assets/images/Compute/Cloud-Load-Balancing.png",
+                "toolTip": "Google-CLB"        
+            },
+            "Google-Cloud tools for PowerShell":{
+                "imgSrc": "assets/images/Compute/Cloud-Tools-for-PowerShell.png",
+                "toolTip": "Google-Cloud tools for PowerShell"        
+            },
+            "Google-CSR":{
+                "imgSrc": "assets/images/Compute/google-csr.png",
+                "toolTip": "Google-CSR"        
+            },
+            "Google-Deployment Manager":{
+                "imgSrc": "assets/images/Compute/Cloud-Deployment-Manager.png",
+                "toolTip": "Google-Deployment Manager"
+            },
+            "Google-StackDriver":{
+                "imgSrc": "assets/images/Compute/Stackdriver.png",
+                "toolTip": "Google-StackDriver"
+            },
+            "Google-Monitoring":{
+                "imgSrc": "assets/images/Compute/Monitoring.png",
+                "toolTip": "Google-Monitoring"
+            },
+            "Google-Logging":{
+                "imgSrc": "assets/images/Compute/Logging.png",
+                "toolTip": "Google-Logging"
+            },
+            "Google-Error Reporting":{
+                "imgSrc": "assets/images/Compute/Error-Reporting.png",
+                "toolTip": "Google-Error Reporting"
+            },
+            "Google-Trace":{
+                "imgSrc": "assets/images/Compute/Trace.png",
+                "toolTip": "Google-Trace"
+            },
+            "Google-Debugger":{
+                "imgSrc": "assets/images/Compute/Debugger.png",
+                "toolTip": "Google-Debugger"
+            },
+            "Google-Security scanner":{
+                "imgSrc": "assets/images/Compute/securityscanner.png",
+                "toolTip": "Google-Security scanner"
+            },
+            "Google-Google Cloud Platform Security":{
+                "imgSrc": "assets/images/Compute/Cloud-Platform-Security.png",
+                "toolTip": "Google-Google Cloud Platform Security"
+            },
+            "Google-Cloud APIs":{
+                "imgSrc": "assets/images/Compute/Cloud-APIs.png",
+                "toolTip": "Google-Cloud APIs"
+            },
+            "Google-Cloud Security Command Center":{
+                "imgSrc": "assets/images/Compute/googleSecurityCC.png",
+                "toolTip": "Google-Cloud Security Command Center"
+            },
+            "Google-Data Loss Prevention API":{
+                "imgSrc": "assets/images/Compute/Cloud-Data-Loss-Prevention-API.png",
+                "toolTip": ""
+            },
+            "Google-GCP BigQuery":{
+                "imgSrc": "assets/images/Compute/BigQuery.png",
+                "toolTip": "Google-GCP BigQuery"
+            },
+            "Google-Cloud DataProc":{
+                "imgSrc": "assets/images/Compute/Cloud-Dataproc.png",
+                "toolTip": "Google-Cloud DataProc"
+            },
+            "Google-Cloud Dataflow":{
+                "imgSrc": "assets/images/Compute/Cloud-Dataflow.png",
+                "toolTip": "Google-Cloud Dataflow"
+            },
+            "Google-Cloud Datalab":{
+                "imgSrc": "assets/images/Compute/Cloud-Datalab.png",
+                "toolTip": "Google-Cloud Datalab"
+            },
+            "Google-Cloud Dataprep":{
+                "imgSrc": "assets/images/Compute/Cloud-Dataprep.png",
+                "toolTip": "Google-Cloud Dataprep"
+            },
+            "Google-Cloud DataStudio":{
+                "imgSrc": "assets/images/Compute/Data-Studio.png",
+                "toolTip": "Google-Cloud DataStudio"
+            },
+            "Google-Natural Language API":{
+                "imgSrc": "assets/images/Compute/Cloud-Natural-Language-API.png",
+                "toolTip": "Google-Natural Language API"
+            },
+            "Google-Dialogflow Enterprise Edition":{
+                "imgSrc": "assets/images/Compute/google_dialog_flow.png",
+                "toolTip": "Google-Dialogflow Enterprise Edition"
+            },
+            "Google-Text to Speech":{
+                "imgSrc": "assets/images/Compute/cloud-text-to-speech.png",
+                "toolTip": "Google-Text to Speech"
+            },
+            "Google-Cloud Machine Learning Engine":{
+                "imgSrc": "assets/images/Compute/Cloud-Machine-Learning.png",
+                "toolTip": "Google-Cloud Machine Learning Engine"
+            },
+            "Google-Cloud Mobile App":{
+                "imgSrc": "assets/images/Compute/mobile.png",
+                "toolTip": "Google-Cloud Mobile App"
+            },
+            "Google-Cloud Endpoints":{
+                "imgSrc": "assets/images/Compute/Cloud-Endpoints.png",
+                "toolTip": "Google-Cloud Endpoints"
+            },
+            "Google-Firebase Authentication":{
+                "imgSrc": "assets/images/Compute/cloud firebase authentication.png",
+                "toolTip": "Google-Firebase Authentication"
+            },
+            "Google-Cloud Test Lab":{
+                "imgSrc": "assets/images/Compute/Firebase Test Lab.png",
+                "toolTip": "Google-Cloud Test Lab"
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+           
+            
+            
+
+
+
+
+
+
+
+           "Bluemix-Default": {
+                     "imgSrc": "assets/images/ibm-logo_default.png",
+                     "toolTip": "Bluemix Service"
+            },
+           "Bluemix-VM": {
+                     "imgSrc": "assets/images/Compute/virtual-server.png",
+                     "toolTip": "Virtual-Server"
+            },
+            "Bluemix Container Registry": {
+                "imgSrc": "assets/images/Compute/Bluemix Container Registry.png",
+                "toolTip": "Bluemix Container Registry"
+            },
+            "Bluemix Container Service": {
+                "imgSrc": "assets/images/Compute/Bluemix Container Service.png",
+                "toolTip": "Bluemix Container Service"
+            },
+            "Bluemix-Workload Scheduler": {
+                "imgSrc": "assets/images/Compute/WorkloadScheduler4BlueMix.png",
+                "toolTip": "Bluemix-Workload Scheduler"
+            },
+            "Bluemix-Cloud Foundry": {
+                "imgSrc": "assets/images/Compute/bluemix cloud foundry.png",
+                "toolTip": "Bluemix-Cloud Foundry"
+            },
+            "Bluemix-Openwhisk": {
+                "imgSrc": "assets/images/Compute/bluemix openwisk.png",
+                "toolTip": "Bluemix-Openwhisk"
+            },
+            "Bluemix-Block Storage":{
+                "imgSrc": "assets/images/Compute/ibm-block-storage.png",
+                "toolTip": "Bluemix-Block Storage"
+            },
+            "Bluemix-Lift":{
+                "imgSrc": "assets/images/Compute/bluemix-lift.png",
+                "toolTip": "Bluemix-Lift"
+            },
+            "Bluemix-Certificate Manager":{
+                "imgSrc": "assets/images/Compute/ibm-certiManager.png",
+                "toolTip": "Bluemix-Certificate Manager"
+            },
+            "Bluemix-BigInsights for Apache Hadoop":{
+                "imgSrc": "assets/images/Compute/bluemix biginsights for hadoop.png",
+                "toolTip": "Bluemix-BigInsights for Apache Hadoop"
+            },
+            "Bluemix-ElasticSearch":{
+                "imgSrc": "assets/images/Compute/bluemix elastic search.png",
+                "toolTip": "Bluemix-ElasticSearch"
+            },
+            "Bluemix-Streaming Analytics":{
+                "imgSrc": "assets/images/Compute/streaming_analytics.png",
+                "toolTip": "Bluemix-Streaming Analytics"
+            },
+            "Bluemix-Data Connect":{
+                "imgSrc": "assets/images/Compute/data-connect.png",
+                "toolTip": "Bluemix-Data Connect"
+            },
+            "Bluemix-Natural Language Classifier":{
+                "imgSrc": "assets/images/Compute/NaturalLanguageClassifier.png",
+                "toolTip": "Bluemix-Natural Language Classifier"
+            },
+            "Bluemix-Language Translator":{
+                "imgSrc": "assets/images/Compute/LanguageTranslation.png",
+                "toolTip": "Bluemix-Language Translator"
+            },
+            "Bluemix-AlchemyAPI":{
+                "imgSrc": "assets/images/Compute/alchemy-api.png",
+                "toolTip": "Bluemix-AlchemyAPI"
+            },
+            "Bluemix-Conversation":{
+                "imgSrc": "assets/images/Compute/bluemix-conver.png",
+                "toolTip": "Bluemix-Conversation"
+            },
+            "Bluemix-Speech to Text":{
+                "imgSrc": "assets/images/Compute/speechto-text.png",
+                "toolTip": "Bluemix-Speech to Text"
+            },
+            "Bluemix-Text to Speech":{
+                "imgSrc": "assets/images/Compute/text-to-speech.png",
+                "toolTip": "Bluemix-Text to Speech"
+            },
+            "Bluemix-Visual Recognition":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": "Bluemix-Visual Recognition"
+            },
+            "Bluemix-Retrieve and Rank":{
+                "imgSrc": "assets/images/Compute/retriveand Rank.png",
+                "toolTip": "Bluemix-Retrieve and Rank"
+            },
+            "Bluemix-Personality Insights":{
+                "imgSrc": "assets/images/Compute/personalityInsights.png",
+                "toolTip": "Bluemix-Personality Insights"
+            },
+            "Bluemix-IBM Watson Machine Learning":{
+                "imgSrc": "assets/images/Compute/bluemix machine learning.png",
+                "toolTip": "Bluemix-IBM Watson Machine Learning"
+            },
+            "Bluemix-Mobile Analytics":{
+                "imgSrc": "assets/images/Compute/mobile_analytics.png",
+                "toolTip": "Bluemix-Mobile Analytics"
+            },
+            "Bluemix-API Connect":{
+                "imgSrc": "assets/images/Compute/apiconnect.png",
+                "toolTip": "Bluemix-API Connect"
+            },
+            "Bluemix-App ID":{
+                "imgSrc": "assets/images/Compute/app id.png",
+                "toolTip": "Bluemix-App ID"
+            },
+            "Bluemix-Bitbar Testing":{
+                "imgSrc": "assets/images/Compute/bitbar_testing.png",
+                "toolTip": "Bluemix-Bitbar Testing"
+            },
+            "Bluemix-Cloud Functions":{
+                "imgSrc": "assets/images/Compute/ibm-cloud-functions.png",
+                "toolTip": "Bluemix-Cloud Functions"
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+            "":{
+                "imgSrc": "assets/images/Compute/",
+                "toolTip": ""
+            },
+
+
+
+
+
+
+
+
+
+           "Oracle-Default": {
+                     "imgSrc": "assets/images/oracle-logo_default.png",
+                     "toolTip": "Oracle Service"
+            },
+
+           "Oracle-Compute": {
+                     "imgSrc": "assets/images/Compute/compute.png",
+                     "toolTip": "Compute-Engine"
+                  },
+           "Oracle-AppContainer": {
+                     "imgSrc": "assets/images/Compute/compute.png",
+                     "toolTip": "Container-Registry"
+        },
+
+        "Oracle-Object Storage": {
+            "imgSrc": "assets/images/Compute/oracle object storage.png",
+            "toolTip": "Oracle-Object Storage"
+},
+"Oracle-features Block Storage":{
+    "imgSrc": "assets/images/Compute/oracle block storage logo.png",
+    "toolTip": "Oracle-features Block Storage"
+},
+"Oracle-Data Transfer Service":{
+    "imgSrc": "assets/images/Compute/oracle data transfer service.png",
+    "toolTip": "Oracle-Data Transfer Service"
+},
+"Oracle-Virtual Cloud Network":{
+    "imgSrc": "assets/images/Compute/Oracle-virtual-cloud-network.png",
+    "toolTip": "Oracle-Virtual Cloud Network"
+},
+"Oracle-Load Balancers":{
+    "imgSrc": "assets/images/Compute/loadbalancer.png",
+    "toolTip": "Oracle-Load Balancers"
+},
+"Oracle-Fast Connect":{
+    "imgSrc": "assets/images/Compute/service-fastconnect.png",
+    "toolTip": "Oracle-Fast Connect"
+},
+"Oracle-Developer Cloud Service":{
+    "imgSrc": "assets/images/Compute/cloudgs_developerService.png",
+    "toolTip": "Oracle-Developer Cloud Service"
+},
+"Oracle-Management Cloud":{
+    "imgSrc": "assets/images/Compute/oracle management cloud.png",
+    "toolTip": "Oracle-Management Cloud"
+},
+"Oracle-Stack Manager":{
+    "imgSrc": "assets/images/Compute/stackmanager.png",
+    "toolTip": "Oracle-Stack Manager"
+},
+"Oracle-Application Performance Monitoring":{
+    "imgSrc": "assets/images/Compute/AppPerfMonitoring.png",
+    "toolTip": "Oracle-Application Performance Monitoring"
+},
+"Oracle-event-hub Event Hub":{
+    "imgSrc": "assets/images/Compute/oracle-eventhub.png",
+    "toolTip": "Oracle-event-hub Event Hub"
+},
+"Oracle-bigdata Big Data":{
+    "imgSrc": "assets/images/Compute/oracle-bigdata.png",
+    "toolTip": "Oracle-bigdata Big Data"
+},
+"Oracle-Business Intelligence":{
+    "imgSrc": "assets/images/Compute/businsIntelli.png",
+    "toolTip": "Oracle-Business Intelligence"
+},
+"Oracle-Integration":{
+    "imgSrc": "assets/images/Compute/integration.png",
+    "toolTip": "Oracle-Integration"
+},
+"Oracle-Mobile Cloud Service":{
+    "imgSrc": "assets/images/Compute/oraclemobileCloudService.png",
+    "toolTip": "Oracle-Mobile Cloud Service"
+},
+
+
+
+
+
+
+
+
+
+        "Oracle-Container Cloud Service": {
+            "imgSrc": "assets/images/Compute/oracle container cloud service.png",
+            "toolTip": "Oracle-Container Cloud Service"
+}			
+   }
+}

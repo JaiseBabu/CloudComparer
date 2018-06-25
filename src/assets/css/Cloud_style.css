@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: myFirstFont;
+	src:url(../fonts/Roboto-Regular.ttf);
+}
+
+.border{
+	border:1px solid red;
+}
+/* .header{
+    color: #fff;  
+	text-align:center;
+	position:fixed;
+	width:100%;
+	z-index:1;
+	background:rgba(0,0,0,0.8);
+} 
+.logo{
+	padding:12px 4px;
+}
+.logo img
+{
+	width:22%;
+}
+*/
+.header_icon_wrapper{
+	display:flex;
+	justify-content:flex-end;
+}
+.header_label{
+	padding:18px 20px;
+}
+.header_label>a{
+	color:#fff;
+}
+.header_label>a:hover,.header_label>a:focus{
+	text-decoration:none;
+}
+.header_icon_wrapper img{
+	padding: 7px;
+    margin-top: 18%;
+}
+.banner{
+	position:relative;
+}
+.banner_img{
+	width:100%;
+}
+.banner_details{
+	position:absolute;
+	width:70%;
+	top:240px;
+	right:92px;
+	color:#fff;
+	padding:10px;
+}
+
+/*.winner_logo_wrapper{
+	flex:2;
+	display:flex;
+}
+.winner_logo_wrapper img{
+	margin:auto;
+}*/
+/*.img_desc_wrapper{
+	flex:3;
+	color:#fff;
+	display:flex;
+	padding:10px;
+}
+.img_desc_wrapper div{
+	margin:auto;
+}*/
+.winner_name{
+	font-size:28px;
+	color:#F79822;
+	font-weight:bold;
+}
+.winner_sub{
+	font-size:22px;
+}
+.desc_text{
+	opacity:0.7;
+	margin-bottom:100px;
+}
+.click_btn{
+	width:100px;
+	padding:4px;
+	border-radius:20px;
+	background:white;
+	text-align:center;
+	color:#e20074;
+	margin:0 auto;
+	cursor:pointer;
+}
+/*Advice Row*/
+.advice_row{	
+margin-top:100px;
+	background:#99115D;
+	color:#fff;	
+	font-size:12px;
+}
+.advice_wrapper{
+	margin:0 auto;
+	text-align:center;
+	padding:20px 10px;
+}
+.advice_wrapper p{
+	margin:0 0 5px;
+}
+.footer{
+	background:#2D1D27;
+	font-size:12px;
+	padding:10px;
+	display:flex;
+	color:#B4B3B3;
+}
+.footer_links{
+	padding:0 10px;
+	border-right:1px solid #606060;
+	margin-left:3px;
+}
+.footer_links>a{
+	color:#B4B3B3;
+}
+.footer .footer_links:last-child{
+	border-right:1px solid #2D1D27;
+}
+
+/*Tool tip*/
+.grey-tooltip + .tooltip > .tooltip-inner {background-color: #393939;}
+.grey-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:#393939; }
+
+@media(max-width:767px) {
+
+.logo img
+{
+	width:50%;
+}
+.header_label{
+	font-size:12px;
+	padding:12px 10px;
+}
+.header_icon_wrapper img{
+    margin-top: 6%;
+}
+.banner_details{
+	top:47px;
+	right:28px;
+}
+
+/*.winner_logo_wrapper{
+	display:block;
+}
+.winner_logo_wrapper img{
+	margin-top:50px;
+	width:50%;
+}*/
+.winner_name{
+	font-size:18px;
+}
+.winner_sub{
+	font-size:12px;
+}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+.logo img
+{
+	width:30%;
+}
+.banner_details{
+	top:100px;
+
+}
+.winner_name{
+	font-size:22px;
+}
+.winner_sub{
+	font-size:16px;
+}
+.desc_text{
+	font-size:12px;
+}
+}
+
+body
+{
+	font-family:myFirstFont;
+	color:#373737;	
+	background-color: #000;
+	background-image: url(../images/page_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+.container{
+	width: 90%;
+	padding: 0px;
+}
+
+.header{
+	width: 100%;
+	border-radius: 7px;
+	background-color: #000;
+	height: 52px;
+	color: #fff;
+	}
+.header img.logo{
+	float: left;
+	padding-top: 16px;
+	padding-left: 35px;
+}
+.heroshot{
+	width: 90%;
+	height: 230px;
+	background-image: url(../images/clouds_bg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+}
+
+.heroshot h1{
+font-size: 28px;
+color: #fff;
+display: block;
+margin-left: 35px;
+padding-top: 2em;
+font-weight: 600;
+letter-spacing: 0.02em;
+}
+
+.heroshot h2{
+font-size: 15px;
+color: #fff;
+display: block;
+margin-left: 35px;
+margin-top: 0px;
+line-height: 1.5em;
+} 
+
+.heroshot div.heroimage{
+	margin-top: -30px;
+}
+
+.tablectn{
+
+	height: auto;
+	padding:10px;
+	border-radius: 5px;
+	background-color: #fff;
+	display: block;
+}
+/*Advice Row*/
+.advice_row{	
+	color:#CBCBCB;	
+	font-size:11px;
+}
+.advice_wrapper{
+	margin:0 auto;
+	text-align:center;
+	padding:20px 10px;
+	color:#CBCBCB;
+	font-size:11px;
+}
+.advice_wrapper p{
+	margin:0 0 5px;
+}
+
+.advice_wrapper div.spacer{
+border-bottom: solid 1px #aaaaaa;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 15px;
+}
+
+.footer{
+	background: #000;
+	font-size:12px;
+	padding:10px;
+	display:flex;
+	color:#fff;
+}
+.footer_links{
+	padding:0 10px;
+	border-right:1px solid #fff;
+}
+.footer_links>a{
+	color:#fff;
+}
+.footer .footer_links:last-child{
+	border-right:0px solid #fff;
+}

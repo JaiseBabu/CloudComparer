@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.comment_popup 
+{
+   	margin:0 auto;
+	position:relative;
+	top:21%;
+	text-align:center;
+}
+.category_div .comment_popup .comment_icon,.services_comment_div .comment_popup .comment_icon{
+	color: #e20f75;;
+	margin:0 auto;
+	font-size:22px;
+}
+.services_div .comment_popup 
+{
+	top:40%;
+}
+.comment_popup .tooltiptext 
+{
+    visibility: hidden;
+    width: 460px;
+    background:rgba(112,109,124,1);
+    color: #fff;
+    border: 2px solid #e20f75;
+	border-radius: 5px;
+    padding: 15px 25px 15px 10px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 110px;
+	line-height: 1.2em;
+  }
+.comment_popup:hover .tooltiptext 
+{
+    visibility: visible;
+}
+.ul_style
+{
+	margin-top:0;
+	padding-left:28px;
+	font-size:12px;
+}
+
+.left
+{
+	text-align:left;
+	margin-top: 10px;
+	color:#fff;
+}
+.txt_color
+{
+color:#fff;	
+}

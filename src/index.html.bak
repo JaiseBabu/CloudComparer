@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<base href=".">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">	
+    <title>Cloud Comparer</title>	
+    <!-- Bootstrap -->    
+ 	<script src="assets/js/shim.min.js"></script>
+	<!-- custom added css -->   
+	
+  </head>
+  <body>  
+  
+<div class="container-fluid ">
+      <div class="row header ">
+    	<div class="col-md-6 col-sm-6 col-xs-6  ">
+   	    	<div class="logo "><img src="assets/images/T_Mobile_logo.png" class="img-responsive" alt=""/> </div>
+        </div>
+       
+        <div class="col-md-6 col-sm-6 col-xs-6 ">
+   	    	<div class="header_icon_wrapper">
+            		<div class="header_label " id="up" (click)="navigateToDetails($event);"><a href="#down" >Details</a></div> 
+        	 </div>          
+        </div>
+    </div>
+
+<div class="body_wrapper " >
+<div class="row ">
+	<div class=" banner">
+     	<img src="assets/images/pink_header.png" class="img-responsive banner_img" alt=""/> 
+			<div class="banner_details">
+    	
+                <!--<p class="winner_name"> AWS -Rated as this month's best Cloud Service Provider</p>-->
+                   
+                <p class="winner_sub"> 
+                        <b>Public Cloud Service Comparison</b> -This presentation gives a service & feature level                           mapping between the 5 major public clouds i.e. Amazon Web Service,Microsoft Azure,Google                           Cloud, IBM Bluemix & Oracle</p>
+                <p class="hidden-xs desc_text">A Reference manual to help anyone to quickly learn the alternate features & services between clouds. This is NOT a comparison chart/material between the cloud providers. "None" mentioned against certain services is based on unavailability of certain direct mapping services between cloud providers. Strictly No Personal or my Employer opinions expressed in this comparison. All the definition & benefits of services mentioned in this presentation is sourced from the respective cloud providers websites and documentations. For any queries or issues, please raise an issue request here. Listing doesn't include Thirdparty services offered through cloud market places.</p>
+  
+    <div  id="down"></div>   
+  </div>
+    </div>
+    
+</div>
+
+
+  <app-root>  </app-root>    
+
+
+<div class="row advice_row ">
+ 	<div class="advice_wrapper">
+            <h3>Piece of Advice</h3>
+            <p>This presentation gives a service & feature level mapping between the 3 major public clouds i.e.Amazon Web Service, Microsoft Azure & Google Cloud</p>
+        <p>A Reference manual to help anyone to quickly learn the alternate features & services between clouds</p>
+        <p>This is NOT a comparison chart/material between the cloud providers</p>
+        <p>"None" mentioned against certain services is based on unavailability of certain direct mapping services between cloud providers</p>
+        <p>Strictly No Personal or my Employer opinions expressed in this comparison</p>
+        <p>All the definition & benefits of services mentioned in this presentation is sourced from the respective cloud providers websites and documentations.</p>
+        <p>For any queries or issues, please raise an issue request here</p>
+        <p>Listing doesn't include Thirdparty services offered through cloud market places</p>
+        </div>
+</div>
+
+<div class="row footer">
+	<div class="footer_links"><a href="https://www.t-mobile.com/company/website/privacypolicy.aspx">T-Mobile Privacy Policy</a></div>
+    <div class="footer_links">Terms & Conditions</div>
+    <div class="footer_links">Contact Us</div>
+    <div class="footer_links">Copyright © USTGlobal 2017. All Rights Reserved</div>
+</div>
+
+</div>
+ </div> 
+  </body>
+</html>

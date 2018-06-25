@@ -1,0 +1,224 @@
+ 
+<div class="row ">
+
+	<!--<div class="col-md-12 col-xs-12 compare_table ">
+      <div class="panel-group" id="accordion" >-->
+	  <div class="col-md-12 col-lg-12">
+                <div class="tablectn">
+				<div class="main_cloud_header  ">
+            	<div class="logo_div "> </div>
+            	<div class="logo_div">
+                	<b data-toggle="tooltip" data-placement="top" title="Amazon Web Services" class="grey-tooltip">
+                	<img class="img-responsive" src="assets/images/aws-logo.png"  alt=""/>
+                    </b>
+                </div>
+                <div class="logo_div">
+                	<b data-toggle="tooltip" data-placement="top" title="Microsoft Azure" class="grey-tooltip">
+                	<img class="img-responsive" src="assets/images/Azure-logo.png"  alt=""/>
+                    </b>
+                </div>
+                <div class="logo_div">
+                	<b data-toggle="tooltip" data-placement="top" title="Google Cloud Platform" class="grey-tooltip">
+                	<img class="img-responsive" src="assets/images/Google-CloudPlatform-logo.png"  alt=""/>
+                    </b>
+                </div>
+                <div class="logo_div">
+                	<b data-toggle="tooltip" data-placement="top" title="IBM Bluemix" class="grey-tooltip">
+                	<img class="img-responsive" src="assets/images/ibm-logo.png"  alt=""/>
+                    </b>
+                </div>
+                <div class="logo_div">
+                	<b data-toggle="tooltip" data-placement="top" title="Oracle" class="grey-tooltip">
+                	<img class="img-responsive" src="assets/images/oracle-logo.png"  alt=""/>
+                    </b>
+                </div>
+                <div class="comment_div">
+                <b data-toggle="tooltip" data-placement="top" title="Comments" class="grey-tooltip">
+                </b>
+                </div>
+        		
+          </div>
+                    <div class="panel-group" id="accordion">
+      	<div class="panel panel-default" *ngFor="let category of categories; let currentCategoryIndex=index ">
+      <div class="panel-heading collapsed">
+        <h4 class="panel-title">
+         
+          
+       	<div class="category_div">
+             <a data-toggle="collapse" data-parent="#accordion" href="#{{currentCategoryIndex}}" class=" category_col " >	
+             	{{ category.Category}}
+		<i class="fa fa-plus arrow_right"></i>
+             </a>
+         
+            <div class="category_col">
+                <img class="img-responsive rating_img" src="{{config.rating[category.AWS]}}" alt=""/>  
+            </div>
+           
+            <div class="category_col">
+                <img class="img-responsive rating_img" src="{{config.rating[category.Azure]}}" alt=""/> 
+            </div>
+            <div class="category_col">
+                <img class="img-responsive rating_img" src="{{config.rating[category.Google]}}" alt=""/> 
+            </div>
+            <div class="category_col">
+                <img class="img-responsive rating_img" src="{{config.rating[category.Bluemix]}}" alt=""/> 
+            </div>
+            <div class="category_col">
+                <img class="img-responsive rating_img" src="{{config.rating[category.Oracle]}}" alt=""/> 
+            </div>
+            <div class="comment_div ">
+            
+            	 <div class="comment_popup">
+                    <i class="fa fa-info-circle comment_icon" aria-hidden="true"></i>
+                 <span class="tooltiptext">
+                    <ul class="ul_style" *ngFor="let comment of readExcelCellLine(category.Comments)">
+                        <li class="left"  *ngIf="comment"><span class="txt_color">
+							{{comment | trim}}
+                        </span>
+                        </li>                        
+                    </ul>
+         </span>
+         </div>
+            </div>
+
+           <!--  <div class="comment_div ">
+			<a href="{{ category.RefLink | trim}}" class="img-responsive link_icon"  target="_blank">
+				<b data-toggle="tooltip" data-placement="top" title="" class="grey-tooltip" title="{{category.RefLink | trim}}" >
+					<img class="img-responsive link_icon" src="assets/images/link_black.png"  alt=""/>
+				</b>
+			</a> 
+            </div> -->
+            
+            <div class="clear"></div>
+            
+            </div>
+          
+        </h4>
+      </div>
+      <div id="{{currentCategoryIndex}}" class="panel-collapse collapse ">
+        <div class="panel-body">
+        	
+                <div class="services_head" *ngIf="category.services && category.services?.length > 0">
+			<div class="service_header_name">Services</div>
+		</div>
+        	<div class="services_div " *ngFor="let service of category.services">
+            	<div class="services_col">
+                        <div class="service_name"><a href="{{service.ServiceLink | trim}}" target="_blank">{{service.Service}}</a> </div>
+                	<!-- <div class="service_name"><a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_blank">{{service.Service}}</a> </div> -->
+                </div>
+   
+            <div class="services_col " >
+		<div class="services_logo_wrapper"  *ngIf="!service.AWS">
+			<b data-toggle="tooltip" data-placement="top" class="grey-tooltip" title="To Be Added">
+                	<img class="img-responsive" src="assets/images/none.png" alt=""> </b>
+		</div>
+                <div class="services_logo_wrapper" *ngFor="let awsInstance of service.AWS">
+                        <b data-toggle="tooltip" data-placement="top" title="{{ ((config.instance[awsInstance.Instance]) ? (config.instance[awsInstance.Instance].toolTip?config.instance[awsInstance.Instance].toolTip:awsInstance.Instance): 	awsInstance.Instance)}}"  class="grey-tooltip">
+                         <img class="img-responsive" src="{{ ((config.instance[awsInstance.Instance]) ? (config.instance[awsInstance.Instance].imgSrc?config.instance[awsInstance.Instance].imgSrc: config.instance['AWS-Default'].imgSrc): config.instance['AWS-Default'].imgSrc)}}" alt=""/> </b>    
+
+			<img class="img-responsive rating_img"  src="{{config.rating[awsInstance.Rating]}}" alt=""/>                 
+                    <b data-toggle="tooltip" data-placement="top" title="" class="grey-tooltip" title="{{awsInstance.RefLink | trim}}">	 
+			 <a href="{{awsInstance.RefLink | trim}}" class="img-responsive link_icon"  target="_blank"><img class="img-responsive link_icon" src="assets/images/link_black.png"  alt=""/></a>
+		 </b>
+                </div> 
+            </div>
+
+            <div class="services_col " >
+                <div class="services_logo_wrapper"  *ngIf="!service.Azure">
+                        <b data-toggle="tooltip" data-placement="top"  class="grey-tooltip" title="To Be Added">
+                        <img class="img-responsive" src="assets/images/none.png" alt=""> </b>
+                </div>
+
+                <div class="services_logo_wrapper"  *ngFor="let azureInstance of service.Azure">
+                                         
+                        <b data-toggle="tooltip" data-placement="top" title="{{ ((config.instance[azureInstance.Instance]) ? (config.instance[azureInstance.Instance].toolTip?config.instance[azureInstance.Instance].toolTip:azureInstance.Instance):  azureInstance.Instance)}}"  class="grey-tooltip">
+                         <img class="img-responsive" src="{{ ((config.instance[azureInstance.Instance]) ? (config.instance[azureInstance.Instance].imgSrc?config.instance[azureInstance.Instance].imgSrc:config.instance['Azure-Default'].imgSrc): config.instance['Azure-Default'].imgSrc)}}" alt=""/> </b>
+
+ 
+                    <img class="img-responsive rating_img"  src="{{config.rating[azureInstance.Rating]}}" alt=""/> 
+		     <b data-toggle="tooltip" data-placement="top" title="{{azureInstance.RefLink | trim}}" class="grey-tooltip">
+                    <a href="{{azureInstance.RefLink | trim}}" class="img-responsive link_icon"  target="_blank"><img class="img-responsive link_icon" src="assets/images/link_black.png"  alt=""/></a></b>
+                </div>                
+            </div>
+
+            <div class="services_col ">
+                <div class="services_logo_wrapper"  *ngIf="!service.Google">
+                        <b data-toggle="tooltip" data-placement="top"  class="grey-tooltip" title="To Be Added">
+                        <img class="img-responsive" src="assets/images/none.png" alt=""> </b>
+                </div>
+
+                <div class="services_logo_wrapper" *ngFor="let googleInstance of service.Google">
+
+                        <b data-toggle="tooltip" data-placement="top" title="{{ ((config.instance[googleInstance.Instance]) ? (config.instance[googleInstance.Instance].toolTip?config.instance[googleInstance.Instance].toolTip:googleInstance.Instance):  googleInstance.Instance)}}"  class="grey-tooltip">
+                         <img class="img-responsive" src="{{ ((config.instance[googleInstance.Instance]) ? (config.instance[googleInstance.Instance].imgSrc?config.instance[googleInstance.Instance].imgSrc: config.instance['AWS-Default'].imgSrc): config.instance['Google-Default'].imgSrc)}}" alt=""/> </b>	
+
+                       <img class="img-responsive rating_img"  src="{{config.rating[googleInstance.Rating]}}" alt=""/> 
+			<b data-toggle="tooltip" data-placement="top" title="{{googleInstance.RefLink | trim}}" class="grey-tooltip">
+                    <a href="{{googleInstance.RefLink | trim}}" class="img-responsive link_icon"  target="_blank"><img class="img-responsive link_icon" src="assets/images/link_black.png"  alt=""/></a> </b>
+                </div>
+            </div>
+
+            <div class="services_col  ">
+                <div class="services_logo_wrapper"  *ngIf="!service.Bluemix">
+                        <b data-toggle="tooltip" data-placement="top"  class="grey-tooltip" title="To Be Added">
+                        <img class="img-responsive" src="assets/images/none.png" alt=""> </b>
+                </div>
+
+                <div class="services_logo_wrapper" *ngFor="let bmInstance of service.Bluemix">
+                                         
+                        <b data-toggle="tooltip" data-placement="top" title="{{ ((config.instance[bmInstance.Instance]) ? (config.instance[bmInstance.Instance].toolTip?config.instance[bmInstance.Instance].toolTip:bmInstance.Instance):  bmInstance.Instance)}}"  class="grey-tooltip">
+                         <img class="img-responsive" src="{{ ((config.instance[bmInstance.Instance]) ? (config.instance[bmInstance.Instance].imgSrc?config.instance[bmInstance.Instance].imgSrc:config.instance['Bluemix-Default'].imgSrc): config.instance['Bluemix-Default'].imgSrc)}}" alt=""/> </b>
+ 
+                     <img class="img-responsive rating_img"  src="{{config.rating[bmInstance.Rating]}}" alt=""/> 
+		     <b data-toggle="tooltip" data-placement="top" title="{{bmInstance.RefLink | trim}}" class="grey-tooltip">
+                     <a href="{{bmInstance.RefLink | trim}}" class="img-responsive link_icon"  target="_blank"><img class="img-responsive link_icon" src="assets/images/link_black.png"  alt=""/></a> </b>
+                </div> 
+            </div>
+
+            <div class="services_col ">
+                <div class="services_logo_wrapper"  *ngIf="!service.Oracle">
+                        <b data-toggle="tooltip" data-placement="top" class="grey-tooltip" title="To Be Added">
+                        <img class="img-responsive" src="assets/images/none.png" alt=""> </b>
+                </div>
+
+                <div class="services_logo_wrapper " *ngFor="let oracleInstance of service.Oracle">
+
+                        <b data-toggle="tooltip" data-placement="top" title="{{ ((config.instance[oracleInstance.Instance]) ? (config.instance[oracleInstance.Instance].toolTip?config.instance[oracleInstance.Instance].toolTip:oracleInstance.Instance):  oracleInstance.Instance)}}"  class="grey-tooltip">
+                         <img class="img-responsive" src="{{ ((config.instance[oracleInstance.Instance]) ? (config.instance[oracleInstance.Instance].imgSrc?config.instance[oracleInstance.Instance].imgSrc:config.instance['Oracle-Default'].imgSrc): config.instance['Oracle-Default'].imgSrc)}}" alt=""/> </b>
+
+                     <img class="img-responsive rating_img"  src="{{config.rating[oracleInstance.Rating]}}" alt=""/> 
+		     <b data-toggle="tooltip" data-placement="top" title="{{oracleInstance.RefLink | trim}}" class="grey-tooltip">
+                     <a href="{{oracleInstance.RefLink | trim}}" class="img-responsive link_icon"  target="_blank"><img class="img-responsive link_icon" src="assets/images/link_black.png"  alt=""/></a></b>
+                </div>
+            </div>
+
+            <div class="services_comment_div">
+            <div class="comment_popup">
+                <i class="fa fa-info-circle comment_icon" aria-hidden="true"></i>
+                 <span class="tooltiptext">
+                    <ul class="ul_style" *ngFor="let comment of readExcelCellLine(service.Comments)">
+                        <li class="left" *ngIf="comment"><span class="txt_color">{{comment | trim}}</span></li>
+                    </ul>
+         </span>
+         </div>
+            </div>
+            <div class="services_comment_div"> 
+		 <a href="{{refLink | trim}}" class="img-responsive link_icon"  target="_blank" *ngFor="let refLink of readExcelCellLine(service.RefLink)">
+			<b data-toggle="tooltip" data-placement="top" title="{{refLink | trim}}" class="grey-tooltip">
+				<img class="img-responsive link_icon" src="assets/images/link_black.png"  alt=""/>
+			</b>
+		</a>
+			
+            </div>
+            <div class="clear"></div>
+            </div>
+       
+        </div>
+      </div>
+    </div>
+  
+  </div> 
+
+</div>
+    
+</div>
